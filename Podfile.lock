@@ -1,0 +1,15 @@
+PODS:
+  - CGFloatLiteral (0.3.0)
+  - Then (2.1.0)
+
+DEPENDENCIES:
+  - CGFloatLiteral
+  - Then
+
+SPEC CHECKSUMS:
+  CGFloatLiteral: faba125ab2bb8fa90142c414f876b83099c26f25
+  Then: 8496793c8fcac95482b943909b440724c7d8d82c
+
+PODFILE CHECKSUM: 6ba7c948c5081830d60df35c7c8f986ca1f6a3a9
+
+COCOAPODS: 1.2.1

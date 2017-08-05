@@ -12,6 +12,14 @@
 		32CF1E861F35B76800EF0C09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32CF1E841F35B76800EF0C09 /* Main.storyboard */; };
 		32CF1E881F35B76800EF0C09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32CF1E871F35B76800EF0C09 /* Assets.xcassets */; };
 		32CF1E8B1F35B76800EF0C09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32CF1E891F35B76800EF0C09 /* LaunchScreen.storyboard */; };
+		32CF1E941F35B7C400EF0C09 /* PagerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CF1E931F35B7C400EF0C09 /* PagerCollectionViewCell.swift */; };
+		32CF1E961F35B7E400EF0C09 /* PagerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CF1E951F35B7E400EF0C09 /* PagerController.swift */; };
+		32CF1E981F35B9C700EF0C09 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CF1E971F35B9C700EF0C09 /* UIColor.swift */; };
+		32CF1E9B1F35BF4200EF0C09 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CF1E9A1F35BF4200EF0C09 /* UIView.swift */; };
+		32CF1E9D1F35BFCF00EF0C09 /* BaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CF1E9C1F35BFCF00EF0C09 /* BaseCollectionViewCell.swift */; };
+		32CF1E9F1F35EB6E00EF0C09 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CF1E9E1F35EB6E00EF0C09 /* CollectionViewCell.swift */; };
+		32CF1EA11F35ED4100EF0C09 /* UICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CF1EA01F35ED4100EF0C09 /* UICollectionView.swift */; };
+		7FD4E8D6BB186F919B1F0AFB /* Pods_Pager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD7740E855371D6F841922A4 /* Pods_Pager.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +30,16 @@
 		32CF1E871F35B76800EF0C09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32CF1E8A1F35B76800EF0C09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		32CF1E8C1F35B76800EF0C09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32CF1E931F35B7C400EF0C09 /* PagerCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagerCollectionViewCell.swift; sourceTree = "<group>"; };
+		32CF1E951F35B7E400EF0C09 /* PagerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PagerController.swift; sourceTree = "<group>"; };
+		32CF1E971F35B9C700EF0C09 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		32CF1E9A1F35BF4200EF0C09 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		32CF1E9C1F35BFCF00EF0C09 /* BaseCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCollectionViewCell.swift; sourceTree = "<group>"; };
+		32CF1E9E1F35EB6E00EF0C09 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		32CF1EA01F35ED4100EF0C09 /* UICollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICollectionView.swift; sourceTree = "<group>"; };
+		80840764AF2E5E6ED78EE736 /* Pods-Pager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pager/Pods-Pager.debug.xcconfig"; sourceTree = "<group>"; };
+		AD7740E855371D6F841922A4 /* Pods_Pager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7937F9E50FEE812A5EB239A /* Pods-Pager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pager.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pager/Pods-Pager.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +47,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FD4E8D6BB186F919B1F0AFB /* Pods_Pager.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		094680D411C765246F7D8535 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD7740E855371D6F841922A4 /* Pods_Pager.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		32CF1E741F35B76800EF0C09 = {
 			isa = PBXGroup;
 			children = (
 				32CF1E7F1F35B76800EF0C09 /* Pager */,
 				32CF1E7E1F35B76800EF0C09 /* Products */,
+				90CC3F8EBD18A09D72AE67FD /* Pods */,
+				094680D411C765246F7D8535 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +83,8 @@
 		32CF1E7F1F35B76800EF0C09 /* Pager */ = {
 			isa = PBXGroup;
 			children = (
+				32CF1E991F35B9D300EF0C09 /* Extensions */,
+				32CF1E921F35B79900EF0C09 /* PagerViewController */,
 				32CF1E801F35B76800EF0C09 /* AppDelegate.swift */,
 				32CF1E821F35B76800EF0C09 /* ViewController.swift */,
 				32CF1E841F35B76800EF0C09 /* Main.storyboard */,
@@ -64,6 +95,36 @@
 			path = Pager;
 			sourceTree = "<group>";
 		};
+		32CF1E921F35B79900EF0C09 /* PagerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				32CF1E9C1F35BFCF00EF0C09 /* BaseCollectionViewCell.swift */,
+				32CF1E931F35B7C400EF0C09 /* PagerCollectionViewCell.swift */,
+				32CF1E951F35B7E400EF0C09 /* PagerController.swift */,
+			);
+			name = PagerViewController;
+			sourceTree = "<group>";
+		};
+		32CF1E991F35B9D300EF0C09 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				32CF1E9A1F35BF4200EF0C09 /* UIView.swift */,
+				32CF1E971F35B9C700EF0C09 /* UIColor.swift */,
+				32CF1E9E1F35EB6E00EF0C09 /* CollectionViewCell.swift */,
+				32CF1EA01F35ED4100EF0C09 /* UICollectionView.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		90CC3F8EBD18A09D72AE67FD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				80840764AF2E5E6ED78EE736 /* Pods-Pager.debug.xcconfig */,
+				E7937F9E50FEE812A5EB239A /* Pods-Pager.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +132,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 32CF1E8F1F35B76800EF0C09 /* Build configuration list for PBXNativeTarget "Pager" */;
 			buildPhases = (
+				4C1EB1390740B8A2C4075BED /* [CP] Check Pods Manifest.lock */,
 				32CF1E791F35B76800EF0C09 /* Sources */,
 				32CF1E7A1F35B76800EF0C09 /* Frameworks */,
 				32CF1E7B1F35B76800EF0C09 /* Resources */,
+				B4350FC4D23148FDBC22C2B1 /* [CP] Embed Pods Frameworks */,
+				27F0F117E19DFBF0DAE1D0C0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -132,13 +196,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		27F0F117E19DFBF0DAE1D0C0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pager/Pods-Pager-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C1EB1390740B8A2C4075BED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B4350FC4D23148FDBC22C2B1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pager/Pods-Pager-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		32CF1E791F35B76800EF0C09 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32CF1E941F35B7C400EF0C09 /* PagerCollectionViewCell.swift in Sources */,
+				32CF1E9D1F35BFCF00EF0C09 /* BaseCollectionViewCell.swift in Sources */,
+				32CF1E9F1F35EB6E00EF0C09 /* CollectionViewCell.swift in Sources */,
+				32CF1EA11F35ED4100EF0C09 /* UICollectionView.swift in Sources */,
 				32CF1E831F35B76800EF0C09 /* ViewController.swift in Sources */,
 				32CF1E811F35B76800EF0C09 /* AppDelegate.swift in Sources */,
+				32CF1E961F35B7E400EF0C09 /* PagerController.swift in Sources */,
+				32CF1E9B1F35BF4200EF0C09 /* UIView.swift in Sources */,
+				32CF1E981F35B9C700EF0C09 /* UIColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,10 +378,12 @@
 		};
 		32CF1E901F35B76800EF0C09 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80840764AF2E5E6ED78EE736 /* Pods-Pager.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 48FWN8V22H;
 				INFOPLIST_FILE = Pager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.drawpad.Pager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -272,10 +393,12 @@
 		};
 		32CF1E911F35B76800EF0C09 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7937F9E50FEE812A5EB239A /* Pods-Pager.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 48FWN8V22H;
 				INFOPLIST_FILE = Pager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.drawpad.Pager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -302,6 +425,7 @@
 				32CF1E911F35B76800EF0C09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
